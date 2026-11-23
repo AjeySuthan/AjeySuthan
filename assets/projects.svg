@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="175" viewBox="0 0 900 175"><style>
+@keyframes neon{0%{fill:#00f0ff}20%{fill:#ff2bd6}40%{fill:#39ff14}60%{fill:#ffe600}80%{fill:#ff1e2d}100%{fill:#00f0ff}}
+@keyframes neonS{0%{stroke:#00f0ff}20%{stroke:#ff2bd6}40%{stroke:#39ff14}60%{stroke:#ffe600}80%{stroke:#ff1e2d}100%{stroke:#00f0ff}}
+@keyframes blink{0%,42%,48%,60%,100%{opacity:1}44%,54%{opacity:.12}46%{opacity:.7}57%{opacity:.3}}
+@keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes jit{0%,92%,100%{transform:translate(0,0)}94%{transform:translate(3px,0)}96%{transform:translate(-3px,1px)}98%{transform:translate(2px,-1px)}}
+.n{animation:neon 8s linear infinite}.ns{animation:neonS 8s linear infinite}
+.bl{animation:blink 3.2s steps(1,end) infinite}.cu{animation:cur 1s steps(1,end) infinite}.jt{animation:jit 4s linear infinite}
+text{font-family:"Courier New",Courier,monospace}.w{fill:#f2eaea}.m{fill:#b98}
+</style>
+<defs><filter id="g" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="10" y="10" width="285" height="155" rx="8" fill="#12040a" class="ns" stroke="#ff1e2d" stroke-width="1.5"/>
+<text x="26" y="44" font-size="11" class="m">PROJECT</text>
+<text x="26" y="64" font-size="16" font-weight="bold" class="n" filter="url(#g)">Spotify Trend Analysis</text><text x="26" y="94" font-size="13" class="w">Music trends 1990-2024 and the</text><text x="26" y="114" font-size="13" class="w">profile of hit songs.</text><text x="26" y="134" font-size="13" class="w">SQL Server, Python, Power BI</text>
+<rect x="307" y="10" width="285" height="155" rx="8" fill="#12040a" class="ns" stroke="#ff1e2d" stroke-width="1.5"/>
+<text x="323" y="44" font-size="11" class="m">PROJECT</text>
+<text x="323" y="64" font-size="16" font-weight="bold" class="n" filter="url(#g)">Deep Fake Guard</text><text x="323" y="94" font-size="13" class="w">ML system that detects</text><text x="323" y="114" font-size="13" class="w">manipulated or AI-generated</text><text x="323" y="134" font-size="13" class="w">videos.</text>
+<rect x="604" y="10" width="285" height="155" rx="8" fill="#12040a" class="ns" stroke="#ff1e2d" stroke-width="1.5"/>
+<text x="620" y="44" font-size="11" class="m">PROJECT</text>
+<text x="620" y="64" font-size="16" font-weight="bold" class="n" filter="url(#g)">Bluetooth Smart Car</text><text x="620" y="94" font-size="13" class="w">Wireless movement control with</text><text x="620" y="114" font-size="13" class="w">LED light and horn control</text><text x="620" y="134" font-size="13" class="w">from a mobile device.</text></svg>
